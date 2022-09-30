@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  height: 100vh;
+}
+
+.container {
+  padding: 2em 3em;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__left .logo {
+  margin-right: 3em;
+}
+
+.navbar__left .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__left .nav-list {
+  list-style-type: none;
+  margin-right: 2em;
+  cursor: pointer;
+  color: dimgray;
+}
+
+.navbar__left .nav-list a {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.navbar__left .nav-list:hover {
+  color: #141414;
+}
+
+.navbar__left .arrow-down {
+  margin-left: .025em;
+  margin-bottom: 1em;
+}
+
+.navbar__left .dropdown {
+  display: none;
+  margin-top: 10px;
+  margin-right: 1em;
+  position: absolute;
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.navbar__left .dropdown li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.navbar__left .dropdown2 {
+  display: none;
+  margin-top: 10px;
+  margin-left: 1em;
+  position: absolute;
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.navbar__left .dropdown2 li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.navbar__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: dimgray;
+}
+
+.navbar__right .cta__login {
+  margin-right: 1.5em;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.navbar__right .cta__register {
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.navbar__right .cta__register:hover {
+  border: 2px solid #141414;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.hero .hero__content {
+  width: 60%;
+  padding: 3em;
+  padding-bottom: 0;
+  margin: 0 3.5em;
+}
+
+.hero .hero__content .hero__heading {
+  font-size: 3.5em;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  padding-right: 3em;
+  line-height: 1.2;
+  color: #141414;
+}
+
+.hero .hero__content .hero__sub-heading {
+  font-size: 17px;
+  color: dimgray;
+  margin-right: 4em;
+  margin-bottom: .5em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.hero .hero__content .cta__more-info {
+  background-color: #141414;
+  color: #fafafa;
+  padding: 12px 24px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+
+.hero .hero__content .cta__more-info:hover {
+  border: 2px solid #141414;
+  background-color: #fff;
+  color: #141414;
+}
+
+.hero .hero__content .brand-tray {
+  margin-top: 1em;
+}
+
+.hero .hero__content .brand-tray ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .hero__content .brand-tray ul li {
+  margin-top: 2.9em;
+  list-style-type: none;
+  margin-right: 1.5em;
+}
+
+.hero .hero__image {
+  width: 50%;
+}
+
+.hero .hero__image .hero__image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.hero .hero__image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */

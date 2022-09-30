@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500&display=swap');
+
+$grey : hsl(0, 0%, 41%);
+$white :hsl(0, 0%, 98%);
+$black : hsl(0, 0%, 8%);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    // font-size:  18px;
+    height: 100vh;
+}
+
+.container{
+    padding: 2em 3em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    &__left{
+    display: flex;
+
+        .logo{
+         margin-right: 3em;   
+        }
+
+        .nav{
+         display: flex;   
+        }
+
+        .nav-list{
+            list-style-type: none;
+            margin-right: 2em;
+            cursor: pointer;
+            color: $grey;
+
+            a{
+                text-decoration: none;
+                color: $grey;
+            }
+
+            &:hover{
+                color: $black;
+            }
+        }
+
+        .arrow-down{
+            margin-left: .025em;
+            margin-bottom: 1em;
+        }
+
+        .dropdown{
+            display: none;
+            margin-top: 10px;
+            margin-right: 1em;
+            position: absolute;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            font-size: 14px;
+            padding: 10px;
+            border-radius: 8px;
+            li{
+                list-style-type: none;
+                padding: 5px;
+            }
+        }
+        .dropdown2{
+            display: none;
+            margin-top: 10px;
+            margin-left: 1em;
+            position: absolute;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            font-size: 14px;
+            padding: 10px;
+            border-radius: 8px;
+            li{
+                list-style-type: none;
+                padding: 5px;
+            }
+        }
+    }
+
+    &__right{
+        display: flex;
+        color: $grey;
+        .cta__login{
+            margin-right: 1.5em;
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            font-size: 15px;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        .cta__register{
+            border: 2px solid transparent;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            font-size: 15px;
+            cursor: pointer;
+            &:hover{
+                border: 2px solid $black;
+            }
+        }
+
+    }
+}
+
+
+.hero{
+    display: flex;
+    margin: 40px auto;
+    user-select: none;
+    
+    // width: 1200px;
+
+    .hero__content{
+     width: 60%;   
+     padding: 3em;
+     padding-bottom: 0;
+     margin: 0 3.5em;
+
+
+     .hero__heading{
+        font-size: 3.5em;
+        margin-top: 1em;
+        margin-bottom: .5em;
+        padding-right: 3em;
+        line-height: 1.2;
+        color: $black;
+
+     }
+
+     .hero__sub-heading{
+         font-size: 17px;
+         color: $grey;
+         margin-right: 4em;
+         margin-bottom: .5em;
+         line-height: 1.5;
+         font-weight: 400;
+     }
+
+     .cta__more-info{
+         background-color: $black;
+         color: $white;
+         padding: 12px 24px;
+         margin-top: 1em;
+         margin-bottom: 2em;
+         border: 2px solid transparent;
+         border-radius: 8px;
+         width: max-content;
+         cursor: pointer;
+         &:hover{
+            border: 2px solid $black;
+            background-color: #fff;
+            color: $black;
+         }
+     }
+
+     .brand-tray{
+        margin-top: 1em;
+     }
+     .brand-tray ul{
+         display: flex;
+         
+         li{
+             margin-top: 2.9em;
+             list-style-type: none;
+             margin-right: 1.5em;
+         }
+     }
+    }
+
+    .hero__image{
+        width: 50%;
+        
+        .hero__image-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+        }
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
