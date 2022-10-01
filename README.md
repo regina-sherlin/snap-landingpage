@@ -1,10 +1,6 @@
 Hello 👋, I have completed this design challenge by Frontend Mentor - Intro section with dropdown navigation
 
-![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, one needs a basic understanding of HTML, CSS and JavaScript.**
+Website URL - [Click here](https://regina-sherlin.github.io/snap-landingpage/)
 
 ## The challenge
 
@@ -26,3 +22,7 @@ The users should be able to:
  **More fine-tuning needed to the project/ Future modifications ⏱️
   - Make it responsive for mobile screens
   - Add more functionality
+
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
